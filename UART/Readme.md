@@ -4,6 +4,7 @@ This folder contains bare-metal UART (USART) implementations for AVR microcontro
 
 Both **transmit (TX)** and **receive (RX)** are implemented using **ring buffers**, allowing non-blocking serial communication without polling delays.
 
+---
 
 ## Implementations Included
 
@@ -31,13 +32,15 @@ Both **transmit (TX)** and **receive (RX)** are implemented using **ring buffers
 - Line-based command handling
 - Hardware timer usage for periodic tasks
 
+---
 
-## Hardware Requirements
+## Hardware Used
 
 - AVR microcontroller (e.g. ATmega328P)
 - USB–UART converter (FTDI / CH340 / CP2102)
 - Common GND between MCU and UART adapter
 
+---
 
 ## UART Configuration
 
@@ -46,6 +49,7 @@ Baud rate 9600
 Data bits 8
 Mode Asynchronous 
 
+---
 
 ## Buffer Design Notes
 
@@ -56,6 +60,7 @@ Mode Asynchronous
 - `head == tail` → buffer empty
 - One buffer slot is intentionally left unused to distinguish full vs empty
 
+---
 
 ## Software Details
 
