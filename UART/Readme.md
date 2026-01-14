@@ -2,7 +2,7 @@
 
 This folder contains bare-metal UART (USART) implementations for AVR microcontrollers using **direct register access** and **interrupt-driven communication**.
 
-Both **transmit (TX)** and **receive (RX)** are implemented using **ring buffers**, allowing non-blocking serial communication without polling delays.
+Both **transmit (TX)** and **receive (RX)** are implemented using **ring buffers**, allowing non-blocking serial communication without delays.
 
 ---
 
