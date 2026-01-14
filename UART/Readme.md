@@ -19,6 +19,7 @@ Both **transmit (TX)** and **receive (RX)** are implemented using **ring buffers
 - Supports receiving full commands / lines (`\n` / `\r` terminated)
 - Demonstrates command parsing (e.g., `LED ON`, `LED OFF`)
 
+---
 
 ## Key Concepts Demonstrated
 
