@@ -44,10 +44,9 @@ Both **transmit (TX)** and **receive (RX)** are implemented using **ring buffers
 
 ## UART Configuration
 
-Parameter | Value |
-Baud rate 9600
-Data bits 8
-Mode Asynchronous 
+- Baud rate 9600
+- Data bits 8
+- Mode Asynchronous 
 
 ---
 
