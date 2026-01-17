@@ -3,6 +3,7 @@
 #define F_CPU 16000000UL
 #include<avr/io.h>
 #include<util/delay.h>
+#include<avr/interrupt.h>
 #define timeout 60000
 #define trig PD7
 #define echo PB0
