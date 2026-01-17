@@ -37,7 +37,7 @@ int main (){
   time_setup();
   UBRR0H = (BRC >> 8);
   UBRR0L = BRC;
-  UCSR0B = (1 << TXEN0); // UDRIE0 enabled dynamically
+  UCSR0B = (1 << TXEN0); 
   UCSR0C = (1 << UCSZ01) | (1 << UCSZ00);
   sei();
   
