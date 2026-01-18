@@ -1,5 +1,5 @@
 # LED fade using TIMER0 PWM 
-*This program demonstrate hardware **PWM** Generation on AVR microcontroller (ATmega328P) using **Timer0** in **Fast PWM Mode**. An LED is is connected to the Pin OC0A (PD6) smoothly fades in and fades out by varying the duty cycle.*
+*This program demonstrate hardware **PWM** Generation on AVR microcontroller (ATmega328P) using **Timer0** in **Fast PWM Mode**. An LED is connected to the Pin OC0A (PD6) smoothly fades in and fades out by varying the duty cycle.*
 ---
 # Hardware Used
 - Microcontroller: ATmega328P
