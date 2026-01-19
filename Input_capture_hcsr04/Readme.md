@@ -14,10 +14,10 @@ This code directly configure hardware registers for-
 - Programmer : USBasp
 ---
 # Pin connections 
-- HC-SR04 (VCC) ------> ATmega328P (5V)
-- HC-SR04 (Trig) -------> ATmega328P (PD7)
-- HC-SR04 (echo) -------> ATmega328P ICP1 (PB0)
-- HC-SR04 (GND) -------> ATmega328P (GND)
+- HC-SR04 (VCC) ---> ATmega328P (5V)
+- HC-SR04 (Trig) ---> ATmega328P (PD7)
+- HC-SR04 (echo) ---> ATmega328P ICP1 (PB0)
+- HC-SR04 (GND) ---> ATmega328P (GND)
 
 ---
 # Timer1 configuration for Input Capture 
