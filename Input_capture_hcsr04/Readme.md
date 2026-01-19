@@ -27,8 +27,8 @@ This code directly configure hardware registers for-
 - Time resolution = 1/2000000 = 0.5 microsecond per count
 - **Input capture noise canceler** (ICNC1) enabled
 - Input capture edge selection (ICES1)
-  - Rising edge -------> start
-  - Falling edge --------> end
+  - Rising edge ---> start
+  - Falling edge ---> end
 - Input capture interrupt enabled (ICIE1)
 ---
 # Working 
@@ -48,9 +48,9 @@ If TCNT1 exceeds defined timeout value :
 ---
 # State Machine
 This program uses simple state machine to avoid blocking delays while waiting for echo
-- idle -------> Ready to trigger
-- wait -------> Waiting for echo capturing or timeout
-- done -------> Measurement completed
+- idle ---> Ready to trigger
+- wait ---> Waiting for echo capturing or timeout
+- done ---> Measurement completed
 ---
 ## Note
 - Input capture noise canceler adds a fixed small delay (~ 4 timer cycle). Negligible for ultrasonic readings
